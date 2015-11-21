@@ -1,9 +1,12 @@
+sudo: false
 language: ruby
 rvm:
-# https://pages.github.com/versions/
-- 2.1.1
+  # https://pages.github.com/versions/
+  - 2.1.1
 cache: bundler
-script: bundle exec jekyll build
+script:
+  - bundle exec ruby bin/validate.rb
+  - bundle exec jekyll build
 branches:
   only:
     - /.*/
