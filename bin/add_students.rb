@@ -5,10 +5,10 @@ require 'octokit'
 require 'pp'
 
 TOKEN = ENV['TOKEN'] || raise("Please set TOKEN.")
-ORG = 'advanced-js'
+ORG = ENV['ORG'] || 'advanced-js'
 REPO = 'students'
 # TODO create team per term?
-TEAM = ENV['TEAM'] || raise("Please set TEAM (should match folder name).")
+TEAM = ENV['TERM'] || raise("Please set TERM (should match folder name).")
 
 Octokit.auto_paginate = true
 client = Octokit::Client.new(access_token: TOKEN)
