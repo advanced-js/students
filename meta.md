@@ -2,7 +2,9 @@
 
 ## Setup
 
-1. Fork this repository.
+1. Clone this repository and push it to [a new one](https://github.com/new) (under your GitHub organization).
+    * If you make a fork of this one instead, new pull requests from your students will default to going to this repository, rather than your copy.
+1. [Enable Travis CI for this repository.](http://docs.travis-ci.com/user/getting-started/#To-get-started-with-Travis-CI%3A)
 1. Clear out the `_data/` directory.
 1. Create a new directory for the current term/session/etc. with a `.keep` file in it, e.g. `_data/SOME_TERM/.keep`.
     * [More info on `.keep` files](http://stackoverflow.com/a/7229996/358804)
