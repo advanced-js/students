@@ -1,6 +1,6 @@
 exclude:
   - vendor
-current_term: fall_2015
+current_term: spring_2016
 markdown: kramdown
 kramdown:
   input: GFM
