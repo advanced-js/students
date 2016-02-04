@@ -6,10 +6,10 @@ layout: default
 
 ## Adding yourself
 
-Students, introduce yourself via a `GITHUB_USERNAME.json` file under the appropriate [`_data/TERM_YEAR/`](https://github.com/advanced-js/students/tree/gh-pages/_data) directory, and submit via pull request. Here's an example:
+Students, introduce yourself via a `GITHUB_USERNAME.json` file under the [`_data/{{ site.current_term }}/`](https://github.com/advanced-js/students/tree/gh-pages/_data/{{ site.current_term }}) directory, and submit via pull request. Here's an example:
 
 ```javascript
-// _data/spring_2015/afeld.json
+// _data/{{ site.current_term }}/afeld.json
 {
  "emoji": "dancer",
  "introduction": "Developer at 18F by day, dancer by night."
