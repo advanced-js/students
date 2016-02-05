@@ -1,2 +1,7 @@
 exclude:
   - vendor
+current_term: spring_2016
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
